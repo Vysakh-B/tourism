@@ -1,0 +1,17 @@
+Tourism Project Database Details:
+                DB name:tourism_project
+Table 1:
+name:reg_usrs1
+fields:id(int),name(varchar),email(varchar),usr_name(varchar),password(varchar);
+Table 2:
+name:details1
+fields:id(int),name(varchar),location(varchar),para(varchar),url(varchar);
+Table 3:
+name:hotels1
+fields:id(id),hotel_name(varchar),place(varchar),location(varchar),img(varchar),price(int),mail_id(varchar);
+Table 4:
+name:bookings1
+fields:id(id),user_name(varchar),about(varchar),place(varchar),location(varchar),hotel_name(varchar),price(int),hotel_mail(varchar);
+Table 5:
+name:admin
+fields:id(int),user_name(varchar),password(varchar);
